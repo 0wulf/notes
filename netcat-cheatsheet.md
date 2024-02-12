@@ -1,5 +1,6 @@
 # GNU-Netcat cheatsheet
 | Comando o Flag | Descripción |
+|----------------|-------------|
 | `nc <host> <port>` | Conexión a `<host>:<port>` |
 | `nc -l -p <port>` | Escucha en el puerto `<port>` |
 | `nc -nlvp <port>` | Escucha de todo tipo de conexiones |
