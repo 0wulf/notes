@@ -6,7 +6,7 @@ A buffer overflow occurs when a program writes more data to a buffer than the bu
 [gets man page](https://linux.die.net/man/3/gets)
 > Never use gets(). Because it is impossible to tell without knowing the data in advance how many characters gets() will read, and because gets() will continue to store characters past the end of the buffer, it is extremely dangerous to use. It has been used to break computer security. Use fgets() instead. - From man page from above.
 
-## [Why gets() is bad / Buffer overflows]()
+## Why gets() is bad / Buffer overflows
 When people are introduced to C, they are often shown the gets() function as a method to get some input from the user/keyboard. It appears that some teachers are also quite insistant that their pupils continue to use it. Well, this is OK for a day one lesson, but gets() has an inherent problem that causes most coders to avoid using it. This quick overview will hopefully help new coders understand the problem, how to get around it, and also how it might also affect their own functions.
 
 #### The problem
